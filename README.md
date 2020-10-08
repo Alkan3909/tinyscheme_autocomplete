@@ -1,6 +1,6 @@
 ## TinyScheme Auto-Complete for Sublime Text
 
-This auto-complete plugin covers Procedures and other constructs available in TinyScheme programming language. Most procedures are available as One-Liners. However, some procedures do exist as both One-Liners as well as Block-Forms. It is upto you, which variant you pick; the API imposes no restrictions. Completion tags have been set up with consistency and ease-of-use in mind. Simply type some letters of a procedure and press `Enter`. The full procedure name, together with parenthesis and arguments (if any) shall appear at cursor location.
+This auto-complete plugin covers Procedures and other constructs available in TinyScheme programming language. Most procedures are available as _One-Liners_. However, some procedures do have _Block-Form_ variant available as well. It is upto you, which variant you pick; the API imposes no restrictions. Completion tags have been set up with consistency and ease-of-use in mind. Simply type some letters of a procedure and press `Enter`. The full procedure name, together with parentheses and arguments (if any) shall appear at cursor location.
 
 
 ### One-Liner Examples
@@ -21,6 +21,7 @@ This auto-complete plugin covers Procedures and other constructs available in Ti
  `sts`         | `(string-set! variable index char)`
  `me`          | `(member element list)`
  `pl`          | `(+ number_a number_b)`
+ `expt`        | `(expt number_base number_exponent)`
  `max`         | `(max number_a number_b number_n)`
  `cons`        | `(cons element list)`
  `apn`         | `(append list_a list_b)`
@@ -81,7 +82,7 @@ This auto-complete plugin covers Procedures and other constructs available in Ti
 
 * You need to type only a few letters of a procedure's name. Observe the patterns used in examples.
 * In the Auto-Complete popup, you'll come across several entries with embedded `_` character. Please note that the `_` character has been added only for better readability. You don't need to type this character.
-* All Block-Form tags have a `block` suffix attached. It is intended to help you identify which items have Block-Form variants available.
+* All _Block-Form_ tags have a `block` suffix attached. It is intended to help you identify which items have _Block-Form_ variant available.
 * Scheme comes with several predicate procedures. Tags for these procedures have a `Q` suffix attached. Again, it's been done for easy identification and quick access.
 * You could use `Tab` and `Shift+Tab` to cycle forward and backward through arguments.
 * If you accidentally invoke an undesirable completion, performing a simple Undo `ctrl + z` might be a better fix, rather than manually deleting the unwanted bits.
@@ -98,7 +99,7 @@ This auto-complete plugin covers Procedures and other constructs available in Ti
 ### Notes
 
 * The data is based upon TinyScheme 1.41.
-* Most dialects of Scheme strive to be at least `R5RS` compliant; TinyScheme is no exception. This means coders/users from other dialects of Scheme (Chez, Racket, etc) could also use this plugin in their projects.
+* Most dialects of Scheme strive to be at least `R5RS` compliant; TinyScheme is no exception. This means coders/users from other dialects of Scheme (Chez, Racket, etc) could also consider using this plugin in their projects.
 * This plugin is released under ... GNU General Public License (v3).
 
 
