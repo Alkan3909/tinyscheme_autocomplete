@@ -1,6 +1,11 @@
 ## TinyScheme Auto-Complete for Sublime Text ... CHANGELOG
 
 
+## 1.0.2
+
+* Updated installation instructions in README.
+
+
 ## 1.0.1
 
 * Added 3 more completions,  available via triggers: `block`, `test_block` and `one_liner`.
