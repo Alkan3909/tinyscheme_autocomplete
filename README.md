@@ -88,7 +88,15 @@ This auto-complete plugin covers Procedures and other constructs available in Ti
 * If you accidentally invoke an undesirable completion, performing a simple Undo `ctrl + z` might be a better fix, rather than manually deleting the unwanted bits.
 
 
-### Installation
+### Installation _ via Sublime Package Control
+
+* Open command palette by using the menu command: _Tools_ → _Command Palette_
+* Select: `Package Control: Install Package`
+* Search for the package name: `TinyScheme Auto-Complete` and press `Enter`
+* After installation completes, you could start using this plugin straight away; no restart required.
+
+
+### Installation _ Manually
 
 * Download the plugin (or clone this repository).
 * After extraction, copy `tinyscheme_autocomplete` folder to Sublime Text's _Packages_ folder.
